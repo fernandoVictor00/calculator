@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:calculator/models/memory.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

@@ -20,7 +20,7 @@ class Button extends StatelessWidget {
     //construtor nomeado
     Button.big({
     required this.text,
-    this.big = true, //ele é falso por padrão
+    this.big = true, 
     this.color = DEFAULT,
     required this.cb,
     });

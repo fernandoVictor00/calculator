@@ -50,7 +50,7 @@ class Memory{
     _wipeValue = true; // pode mudar para _wipeValue = !isEqualSign;
   }
   _addDigit(String digit){
-    final isDot = digit == ',';
+    final isDot = digit == '.';
     final wipeValue = (_value == '0' && !isDot) || _wipeValue;
     if(isDot && _value.contains(',')&& !wipeValue){
       return;
